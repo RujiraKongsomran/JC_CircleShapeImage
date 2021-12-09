@@ -22,11 +22,11 @@ fun MainScreen() {
         contentDescription = "Circular Image",
         modifier = Modifier
             .size(300.dp)
-            .clip(RoundedCornerShape(size = 50.dp))
+            .clip(CircleShape)
             .border(
                 width = 10.dp,
                 color = Color.Cyan,
-                shape = RoundedCornerShape(50.dp)
+                shape = CircleShape
             )
     )
 }
